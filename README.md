@@ -47,7 +47,7 @@ Ball By Ball Data of all the IPL seasons (637 matches including 2017) A Complete
 ## Architecture
 
 ## High Level Architecture Diagram 
-![Architecture Diagram](Docs/Architecture/Architecture_Diagram.png)
+![Architecture Diagram](docs/Architecture/Architecture_Diagram.png)
 
 ```
                     IPL CSV Files
