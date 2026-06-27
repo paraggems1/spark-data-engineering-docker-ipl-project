@@ -46,11 +46,7 @@ Ball By Ball Data of all the IPL seasons (637 matches including 2017) A Complete
 
 ## Architecture
 
-<<<<<<< HEAD
-## High Level Architecture Diagram 
-=======
 ## High Level Architecture Diagram
->>>>>>> dc37ce038521f59bec0ce612fb5137e732a7be9b
 ![Architecture Diagram](ipl_project_spark_setup/docs/Architecture/Architecture_Diagram.png)
 
 ```
@@ -150,6 +146,7 @@ Ball By Ball Data of all the IPL seasons (637 matches including 2017) A Complete
 
 
 ## Repository Structure
+![Project Structure](ipl_project_spark_setup/docs/Screenshots/23-Project-Structure.png)
 
 ## Project Folder Structure 
 ```
