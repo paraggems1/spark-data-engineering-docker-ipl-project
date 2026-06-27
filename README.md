@@ -133,14 +133,13 @@ Ball By Ball Data of all the IPL seasons (637 matches including 2017) A Complete
 
 ---
 
-## Repository Structure
 
-## Project Folder Structure 
-
-![Project Structure](ipl_project_spark_setup/docs/Screenshots/01.png)
 
 
 ## Docker Environment
+
+![Project Structure](ipl_project_spark_setup/docs/Screenshots/01.png)
+
 
 ![Docker Desktop](ipl_project_spark_setup/docs/Screenshots/02-Docker-Desktop.png)
 
@@ -150,6 +149,9 @@ Ball By Ball Data of all the IPL seasons (637 matches including 2017) A Complete
 
 ![Docker Spark Linux Server](ipl_project_spark_setup/docs/Screenshots/17-Docker_Spark_Linux_Server.png)
 
+## Repository Structure
+
+## Project Folder Structure 
 ```
 IPL_DATAENGG_DOCKER_PROJECT_SETUP
 │
@@ -289,7 +291,6 @@ These tables are designed to support reporting and analytical use cases.
 ## 5. Analytics Layer
 
 ## Spark SQL Analytics 
-![Spark SQL DataFrame](ipl_project_spark_setup/docs/Screenshots/20-UI-Spark-SQL-Dataframe-.png)
 
 ## Top Performing Bowlers 
 ![Top Bowlers](ipl_project_spark_setup/docs/Screenshots/09-TopTenBowlers.png) 
@@ -383,9 +384,12 @@ spark-submit /opt/spark-app/main.py
 
 ![Spark Completed Jobs](ipl_project_spark_setup/docs/Screenshots/21-UI-Spark-Completed-Jobs.png)
 
-#### Completed Stages
+## Completed Stages
 
 ![Spark Completed Stages](ipl_project_spark_setup/docs/Screenshots/22-UI-Spark-Completed-Stages.png)
+
+## Completed SQL/DataFrame
+![Spark SQL DataFrame](ipl_project_spark_setup/docs/Screenshots/20-UI-Spark-SQL-Dataframe-.png)
 
 
 ---
