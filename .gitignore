@@ -1,0 +1,31 @@
+
+
+# Ignore generated data files only
+ipl_project_spark_setup/data/**/*.csv
+*.parquet
+*.crc
+_SUCCESS
+
+# Spark metadata
+spark-warehouse/
+metastore_db/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+venv/
+.venv/
+
+# Logs
+*.log
+logs/
