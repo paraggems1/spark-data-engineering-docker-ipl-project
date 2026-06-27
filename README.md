@@ -138,9 +138,6 @@ Ball By Ball Data of all the IPL seasons (637 matches including 2017) A Complete
 
 ## Docker Environment
 
-![Project Structure](ipl_project_spark_setup/docs/Screenshots/01.png)
-
-
 ![Docker Desktop](ipl_project_spark_setup/docs/Screenshots/02-Docker-Desktop.png)
 
 ![Docker Compose Configuration](ipl_project_spark_setup/docs/Screenshots/18-Docker-Comose_yaml_file.png)
@@ -148,6 +145,9 @@ Ball By Ball Data of all the IPL seasons (637 matches including 2017) A Complete
 ![Dockerfile](ipl_project_spark_setup/docs/Screenshots/19-Dockerfile.png)
 
 ![Docker Spark Linux Server](ipl_project_spark_setup/docs/Screenshots/17-Docker_Spark_Linux_Server.png)
+
+![Project Structure](ipl_project_spark_setup/docs/Screenshots/01.png)
+
 
 ## Repository Structure
 
