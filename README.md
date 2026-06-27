@@ -47,7 +47,7 @@ Ball By Ball Data of all the IPL seasons (637 matches including 2017) A Complete
 ## Architecture
 
 ## High Level Architecture Diagram 
-![Architecture Diagram](Docs/Architecture/Architecture_Diagram.png)
+![Architecture Diagram](ipl_project_spark_setup/docs/Architecture/Architecture_Diagram.png)
 
 ```
                     IPL CSV Files
@@ -133,20 +133,18 @@ Ball By Ball Data of all the IPL seasons (637 matches including 2017) A Complete
 
 ## Project Folder Structure 
 
-![Project Structure](Docs/Screenshots/01.png)
+![Project Structure](ipl_project_spark_setup/docs/Screenshots/01.png)
 
-
-![Project Structure](Docs/Screenshots/01.png)
 
 ## Docker Environment
 
-![Docker Desktop](Docs/Screenshots/02-Docker-Desktop.png)
+![Docker Desktop](ipl_project_spark_setup/docs/Screenshots/02-Docker-Desktop.png)
 
-![Docker Compose Configuration](Docs/Screenshots/18-Docker-Comose_yaml_file.png)
+![Docker Compose Configuration](ipl_project_spark_setup/docs/Screenshots/18-Docker-Comose_yaml_file.png)
 
-![Dockerfile](Docs/Screenshots/19-Dockerfile.png)
+![Dockerfile](ipl_project_spark_setup/docs/Screenshots/19-Dockerfile.png)
 
-![Docker Spark Linux Server](Docs/Screenshots/17-Docker_Spark_Linux_Server.png)
+![Docker Spark Linux Server](ipl_project_spark_setup/docs/Screenshots/17-Docker_Spark_Linux_Server.png)
 
 ```
 IPL_DATAENGG_DOCKER_PROJECT_SETUP
@@ -217,14 +215,14 @@ IPL_DATAENGG_DOCKER_PROJECT_SETUP
 ## 1. Data Ingestion
 
 ## Notebook Based Development Workflow 
-![Notebook 1](Docs/Screenshots/03-Notebook1.png) 
-![All Notebooks](Docs/Screenshots/04-All-Notebooks.png) 
-![Notebook 2](Docs/Screenshots/05-Notebook2.png) 
-![Notebook 3](Docs/Screenshots/06-Notebook3.png) 
-![Notebook 4](Docs/Screenshots/07-Notebook4.png)
+![Notebook 1](ipl_project_spark_setup/docs/Screenshots/03-Notebook1.png) 
+![All Notebooks](ipl_project_spark_setup/docs/Screenshots/04-All-Notebooks.png) 
+![Notebook 2](ipl_project_spark_setup/docs/Screenshots/05-Notebook2.png) 
+![Notebook 3](ipl_project_spark_setup/docs/Screenshots/06-Notebook3.png) 
+![Notebook 4](ipl_project_spark_setup/docs/Screenshots/07-Notebook4.png)
 
 ## Raw Dataset 
-![Raw CSV Files](Docs/Screenshots/12-Raw-files-csv.png)
+![Raw CSV Files](ipl_project_spark_setup/docs/Screenshots/12-Raw-files-csv.png)
 
 Raw IPL CSV files are loaded into Spark DataFrames.
 
@@ -233,7 +231,7 @@ Raw IPL CSV files are loaded into Spark DataFrames.
 ## 2. Bronze Layer
 
 ## Spark Session Initialization 
-![Spark Session](Docs/Screenshots/08-Spark-Session.png)
+![Spark Session](ipl_project_spark_setup/docs/Screenshots/08-Spark-Session.png)
 
 * Schema validation
 * Data quality checks
@@ -261,10 +259,10 @@ This layer becomes the primary analytical dataset for downstream processing.
 ## 4. Gold Layer
 
 ## Match Fact Table Generated 
-![Match Fact Table](Docs/Screenshots/13-Match_fact-Table_Parquet-formed.png) 
+![Match Fact Table](ipl_project_spark_setup/docs/Screenshots/13-Match_fact-Table_Parquet-formed.png) 
 
 ### Gold Layer Outputs 
-![Gold Layer Tables](Docs/Screenshots/15-Gold_Layer_Tables_Formed.png)
+![Gold Layer Tables](ipl_project_spark_setup/docs/Screenshots/15-Gold_Layer_Tables_Formed.png)
 
 🏆 Gold Layer (Business-Facing Analytical Products)
 ├── 📊 match_fact_table
@@ -287,13 +285,13 @@ These tables are designed to support reporting and analytical use cases.
 ## 5. Analytics Layer
 
 ## Spark SQL Analytics 
-![Spark SQL DataFrame](Docs/Screenshots/20-UI-Spark-SQL-Dataframe-.png)
+![Spark SQL DataFrame](ipl_project_spark_setup/docs/Screenshots/20-UI-Spark-SQL-Dataframe-.png)
 
 ## Top Performing Bowlers 
-![Top Bowlers](Docs/Screenshots/09-TopTenBowlers.png) 
+![Top Bowlers](ipl_project_spark_setup/docs/Screenshots/09-TopTenBowlers.png) 
 
 ### Top Run Scorers 
-![Top Run Scorers](Docs/Screenshots/10-TopTenRunScorer.png)
+![Top Run Scorers](ipl_project_spark_setup/docs/Screenshots/10-TopTenRunScorer.png)
 
 The final stage focuses on extracting insights using:
 
@@ -329,9 +327,9 @@ The modular design demonstrated in selected Gold layer components can be extende
 ## Example Execution Logs
 
 ## Pipeline Execution 
-![Pipeline Start](Docs/Screenshots/11-Terminal-Before.png)
-![Pipeline Logs](Docs/Screenshots/14-Terminal_Logs_After_Spark_Session_Successful_Run.png) 
-![Pipeline Completion](Docs/Screenshots/16-Terminal-Thank-You.png)
+![Pipeline Start](ipl_project_spark_setup/docs/Screenshots/11-Terminal-Before.png)
+![Pipeline Logs](ipl_project_spark_setup/docs/Screenshots/14-Terminal_Logs_After_Spark_Session_Successful_Run.png) 
+![Pipeline Completion](ipl_project_spark_setup/docs/Screenshots/16-Terminal-Thank-You.png)
 
 ```text
 INFO Reading Silver Dataset
@@ -379,11 +377,11 @@ spark-submit /opt/spark-app/main.py
 
 ## Completed Jobs
 
-![Spark Completed Jobs](Docs/Screenshots/21-UI-Spark-Completed-Jobs.png)
+![Spark Completed Jobs](ipl_project_spark_setup/docs/Screenshots/21-UI-Spark-Completed-Jobs.png)
 
 #### Completed Stages
 
-![Spark Completed Stages](Docs/Screenshots/22-UI-Spark-Completed-Stages.png)
+![Spark Completed Stages](ipl_project_spark_setup/docs/Screenshots/22-UI-Spark-Completed-Stages.png)
 
 
 ---
