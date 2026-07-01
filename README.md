@@ -128,6 +128,13 @@ Ball By Ball Data of all the IPL seasons (637 matches including 2017) A Complete
 
 ---
 
+Pipeline Orchestration: Modularizing code into an app/ structure for maintainable production-style code.
+
+Environment Consistency: Using Docker to ensure identical development and execution environments, eliminating "it works on my machine" issues.
+
+Storage Optimization: Implementing a Parquet-based storage strategy to optimize for read/write performance compared to raw CSVs.
+
+Data Quality: Implementing schema validation and logging to track pipeline health during the transformation stages.
 
 
 
